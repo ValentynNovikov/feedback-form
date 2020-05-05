@@ -1,0 +1,33 @@
+@font-face {
+    font-family: TTHOVES;
+    src: url(./images/TT_Hoves_Black.otf) format("opentype");;
+}
+@font-face {
+    font-family: TTHOVESThin;
+    src: url(./images/TT_Hoves_Thin.otf) format("opentype");;
+}
+
+body {
+    margin: 0;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
+    /*  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
+    /*  sans-serif;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: TTHOVES;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.thank-you {
+    font-family: TTHOVES;
+    font-size: 21px;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
